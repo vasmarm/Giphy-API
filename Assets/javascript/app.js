@@ -107,7 +107,7 @@ $("#addanimal").on("click", function(event) {
         //checking the condition if user enters nothing then button should not be created
         if(animal === ""){
 
-          alert("Unable To Render Button With The Empty Name");
+          alert("Unable To Render Button With The Empty Name!");
   
         }
 
