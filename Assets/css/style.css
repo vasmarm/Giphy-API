@@ -1,5 +1,7 @@
 
-
+body{
+	background-image: url("../../assets/images/bk.png");
+}
 .container{
 	padding: 10px;
 }
@@ -11,5 +13,30 @@
 
 .animal{
 	margin: 10px;
+	padding:5px 15px; 
+    background:#bcd949; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
+#addanimal{
+	padding:5px 15px;  
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-size: 20px;
+    background: -webkit-linear-gradient(red, yellow);
+}
+
+#animal-input{
+
+	font-size: 20px;
+}
+#label{
+
+	font-size: 20px;
+}
